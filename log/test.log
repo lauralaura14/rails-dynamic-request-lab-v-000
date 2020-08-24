@@ -1967,6 +1967,7 @@ Started GET "/students" for 127.0.0.1 at 2018-09-25 17:52:53 +0000
 Processing by StudentsController#index as HTML
   [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
   Rendered students/index.html.erb within layouts/application (4.7ms)
+<<<<<<< HEAD
 Completed 200 OK in 312ms (Views: 297.0ms | ActiveRecord: 0.3ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
@@ -2037,3 +2038,5 @@ Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-09-25 17:52:53.454277"], ["updated_at", "2018-09-25 17:52:53.454277"]]
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> df97fc4d1f6a0770c01684165401800bc2c1c5e6
